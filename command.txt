@@ -1,0 +1,6 @@
+Remove-Item -Recurse -Force "D:\Nuthan\grape_leap_detector\data\train" -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force "D:\Nuthan\grape_leap_detector\data\test" -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force "D:\Nuthan\grape_leap_detector\data\val" -ErrorAction SilentlyContinue
+
+
+Remove-Item -Recurse -Force "D:\Nuthan\grape_leap_detector\runs\*"

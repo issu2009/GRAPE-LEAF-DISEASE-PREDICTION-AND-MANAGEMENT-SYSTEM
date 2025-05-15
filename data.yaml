@@ -1,0 +1,10 @@
+path: C:\final project\grape_leap_detector\data  # dataset root dir
+train: train/images
+val: val/images
+test: test/images
+
+nc: 3  # number of classes
+names: ['ESCA', 'Healthy', 'Leaf Blight']
+
+# Higher weights for Black Rot and ESCA
+class_weights: [1.2, 1.0, 1.5]

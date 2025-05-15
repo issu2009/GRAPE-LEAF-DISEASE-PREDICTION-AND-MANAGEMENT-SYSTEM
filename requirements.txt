@@ -1,0 +1,10 @@
+ultralytics
+opencv-python
+PyQt5
+numpy
+scikit-learn
+scipy
+scikit-image
+matplotlib
+pandas
+seaborn
